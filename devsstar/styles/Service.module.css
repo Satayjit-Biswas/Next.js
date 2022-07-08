@@ -1,0 +1,153 @@
+/*-------------------- Service area ------------------ */
+.Our_service_area {
+    background-color: #f6f7f9;
+    padding: 65px 0;
+}
+.Services_box {
+    display: flex;
+}
+.Services_icon {
+    color: #bb0b0b;
+    display: flex;
+    font-size: 80px;
+    position: relative;
+    margin-right: 25px;
+}
+.Services_number{
+    position: absolute;
+    top: 65px;
+    left: 2px;
+    color: #eaeaea;
+    z-index: 1;
+    font-size: 65px;
+    font-weight: 600;
+}
+.Services_title h2{
+    line-height: 1;
+}
+.Services_title a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 13px;
+    transition: 0.3s;
+}
+.Services_title a:hover {
+    color: #bb0b0b;
+}
+.Services_text{
+    position: relative;
+}
+.Services_text p {
+    color: #3d3d3d;
+    line-height: 1.8;
+    height: 75px;
+    overflow: hidden;
+    position: relative;
+}
+.Services_text::before {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 4px;
+    background-color: #bb0b0b;
+    left: 0;
+    bottom: -30px;
+}
+
+
+/*-------------------- process area ------------------ */
+.process_area{
+    background-image: url("../assets/img/home/ser-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.process_area h2{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+.process_btn{
+    display: flex;
+    justify-content: end;
+}
+.process_img{
+    text-align: center;
+    width: 140px;
+    height: 140px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.process_number{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    background-color: #bb0b0b;
+    border-radius: 50%;
+    left: -5px;
+    bottom: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.process_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.process_box h3{
+    line-height: 1;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 45px 0 15px 0;
+}
+.process_box p{
+    color: rgb(207, 207, 207);
+}
+.line{
+    position: relative;
+}
+.line::after{
+    position: absolute;
+    content: "";
+    width: 75%;
+    height: 5px;
+    background-image: url("../assets/img/service/steps.png");
+    background-position: center;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    z-index: 0;
+}
+/*-------------------- help area ------------------ */
+.help_area{
+    background-image: url("../assets/img/home/blog-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.help_area h2{
+    font-size: 35px;
+}
+.help_area span{
+    margin-top: 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.8;
+}
