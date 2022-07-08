@@ -10,7 +10,7 @@ const Services = () => {
     return (
         <div className={`${home_styles.Services_area}${" "}top_bottom_gap`}>
             <div className="container">
-                <div className="row">
+                <div className="row mt_15">
                     <div className="col-md-8 col-lg-7 col-12">
                         <h3 className="upper_line text_white mt_30">
                             What services we provide to our customers business
@@ -22,7 +22,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mb_15">
                     <div className="col-lg-4 col-md-6">
                         <div className={home_styles.Services_box}>
                             <div className="Services_box_left">

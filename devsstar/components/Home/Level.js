@@ -6,14 +6,14 @@ const Level = () => {
         <div className={`${home_styles.level_area}${" "}top_bottom_gap`}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-5 mt_15 mb_15">
                         <div className={home_styles.level_left_area}>
                             <div className={home_styles.level_img}>
                                 <Image src={dot} width="550" height="515" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-7 mt_15 mb_15">
                         <div className={home_styles.level_right_area}>
                             <h3 className="upper_line">
                                 We take your business to next level

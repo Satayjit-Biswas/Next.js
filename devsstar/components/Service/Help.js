@@ -6,12 +6,12 @@ const Help = () => {
         <div className={`${service_styles.help_area}${" "}top_bottom_gap`}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 mt_15 mb_15">
                         <div className="help_img">
                             <Image src={img1} width="525" height="525" />
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 mt_15 mb_15">
                         <h2 className="upper_line mt_30">
                             We help to implement your ideas into automation
                         </h2>

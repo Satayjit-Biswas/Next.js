@@ -9,7 +9,7 @@ const Process = () => {
     return (
         <div className={`${service_styles.process_area}${" "}top_bottom_gap`}>
             <div className="container">
-                <div className="row mb_40">
+                <div className="row mb_55 mt_15 ">
                     <div className="col-lg-8 col-md-7 mt_30">
                         <h2 className="upper_line">
                             Our working process - how we work for our customers

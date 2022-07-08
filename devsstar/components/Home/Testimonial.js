@@ -15,12 +15,12 @@ const Testimonial = () => {
         <div className={`${home_styles.testimonial_area}${" "}top_bottom_gap`}>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 col-12">
+                    <div className="col-lg-6 col-md-6 col-12 mt_15 mb_15">
                         <div className="testimonial_left">
                             <Image src={t1} width="500" height="440" />
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-12">
+                    <div className="col-lg-6 col-md-6 col-12 mt_15 mb_15">
                         <div className="testimonial_right">
                             <Swiper
                                 spaceBetween={30}

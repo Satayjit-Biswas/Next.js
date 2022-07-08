@@ -12,10 +12,10 @@ const Complete_project = () => {
             }${" "}top_bottom_gap`}
         >
             <div className="container">
-                <h3 className="text_center upper_line mt_30">
+                <h3 className="text_center upper_line mt_45">
                     Completed business cases
                 </h3>
-                <div className="business_filter">
+                <div className="business_filter mb_15">
                     <div className={home_styles.filter_menu}>
                         <ul>
                             <li className="Active">All</li>
