@@ -1,1 +1,60 @@
 /*-------------------- About area ------------------ */
+
+.team_area{
+    background-image: url("../assets/img/home/blog-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team_box{
+    position: relative;
+    margin-bottom: 90px;
+
+}
+.team_img img{
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+}
+.team_text{
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    bottom: -90px;
+    text-align: center;
+    height: 90px;
+    transition: .4s;
+    overflow: hidden;
+    border-bottom: 4px solid #bb0b0b;
+}
+.team_box:hover .team_text{
+    height: 130px;
+    bottom: -90px;
+    background-color: #bb0b0b;
+    color: #fff;
+}
+.team_box:hover .team_img img{
+    transform: scale(1.08);
+}
+.team_text a:hover{
+    color: black;
+}
+.team_text h2 a{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 15px;
+    display: inline-block;
+    transition: .3s;
+}
+
+.team_text h4{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.social a{
+    display: inline-block;
+    margin: 15px 10px;
+    transition: .4s;
+}
