@@ -1,0 +1,56 @@
+/*-------------------- price area ------------------ */
+.price_area{
+    background-image: url("../assets/img/home/blog-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.price_area h3::after{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.price_box{
+    background-color: #fff;
+    text-align: center;
+    max-height: 602px;
+    margin-top: 40px;
+    padding: 40px 60px;
+    box-shadow: 0 0 25px 0px rgb(195 195 195);
+    transition: .4s;
+}
+.price_box:hover{
+    transform: scale(1.02);
+}
+.price_box h2{
+    text-transform: capitalize;
+}
+.img{
+    font-size: 60px;
+    margin: 20px 0;
+    display: inline-block;
+    line-height: 1;
+}
+.price{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.price span{
+    font-size: 72px;
+    font-weight: 600;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin: 10px 0;
+    text-align: start;
+}
+.offer span{
+    font-size: 25px;
+}

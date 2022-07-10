@@ -92,6 +92,9 @@ const Navbar = () => {
                                     <a href="service">Services</a>
                                 </li>
                                 <li>
+                                    <a href="order">Order</a>
+                                </li>
+                                <li>
                                     <a href="blog">Blog</a>
                                 </li>
                                 <li>
