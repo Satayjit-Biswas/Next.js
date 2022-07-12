@@ -9,10 +9,10 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.blog_box{
+.home_blog_box{
     margin-top: 40px;
 }
-.blog_img{
+.home_blog_img{
     position: relative;
 }
 .blog_time_category{
@@ -29,22 +29,22 @@
     border-radius: 0 20px 0px 20px;
 }
 
-.blog_content{
+.home_blog_content{
     padding: 30px ;
     background-color: rgb(231, 231, 231);
     margin-top: -7px;
 }
-.blog_title a{
+.home_blog_title a{
     color: #000000;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
     transition: .3s;
 }
-.blog_title a:hover{
+.home_blog_title a:hover{
     color: #bb0b0b;
 }
-.blog_box svg{
+.home_blog_box svg{
     font-size: 20px;
     font-weight: 800;
     margin-left: 10px;

@@ -27,8 +27,8 @@ const Latest_blog = () => {
                         }}
                     >
                         <SwiperSlide>
-                            <div className={blog_styles.blog_box}>
-                                <div className={blog_styles.blog_img}>
+                            <div className={blog_styles.home_blog_box}>
+                                <div className={blog_styles.home_blog_img}>
                                     <a href="#">
                                         <Image
                                             src={img}
@@ -51,8 +51,10 @@ const Latest_blog = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={blog_styles.blog_content}>
-                                    <div className={blog_styles.blog_title}>
+                                <div className={blog_styles.home_blog_content}>
+                                    <div
+                                        className={blog_styles.home_blog_title}
+                                    >
                                         <a href="#">
                                             8 Productivity tips to avoid burnout
                                             when working
@@ -73,8 +75,8 @@ const Latest_blog = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={blog_styles.blog_box}>
-                                <div className={blog_styles.blog_img}>
+                            <div className={blog_styles.home_blog_box}>
+                                <div className={blog_styles.home_blog_img}>
                                     <a href="#">
                                         <Image
                                             src={img}
@@ -97,8 +99,10 @@ const Latest_blog = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={blog_styles.blog_content}>
-                                    <div className={blog_styles.blog_title}>
+                                <div className={blog_styles.home_blog_content}>
+                                    <div
+                                        className={blog_styles.home_blog_title}
+                                    >
                                         <a href="#">
                                             6 Productivity tips to avoid burnout
                                             when working
@@ -119,8 +123,8 @@ const Latest_blog = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={blog_styles.blog_box}>
-                                <div className={blog_styles.blog_img}>
+                            <div className={blog_styles.home_blog_box}>
+                                <div className={blog_styles.home_blog_img}>
                                     <a href="#">
                                         <Image
                                             src={img}
@@ -143,8 +147,10 @@ const Latest_blog = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={blog_styles.blog_content}>
-                                    <div className={blog_styles.blog_title}>
+                                <div className={blog_styles.home_blog_content}>
+                                    <div
+                                        className={blog_styles.home_blog_title}
+                                    >
                                         <a href="#">
                                             7 Productivity tips to avoid burnout
                                             when working
@@ -165,8 +171,8 @@ const Latest_blog = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={blog_styles.blog_box}>
-                                <div className={blog_styles.blog_img}>
+                            <div className={blog_styles.home_blog_box}>
+                                <div className={blog_styles.home_blog_img}>
                                     <a href="#">
                                         <Image
                                             src={img}
@@ -189,8 +195,10 @@ const Latest_blog = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={blog_styles.blog_content}>
-                                    <div className={blog_styles.blog_title}>
+                                <div className={blog_styles.home_blog_content}>
+                                    <div
+                                        className={blog_styles.home_blog_title}
+                                    >
                                         <a href="#">
                                             7 Productivity tips to avoid burnout
                                             when working
@@ -211,8 +219,8 @@ const Latest_blog = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={blog_styles.blog_box}>
-                                <div className={blog_styles.blog_img}>
+                            <div className={blog_styles.home_blog_box}>
+                                <div className={blog_styles.home_blog_img}>
                                     <a href="#">
                                         <Image
                                             src={img}
@@ -235,8 +243,10 @@ const Latest_blog = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={blog_styles.blog_content}>
-                                    <div className={blog_styles.blog_title}>
+                                <div className={blog_styles.home_blog_content}>
+                                    <div
+                                        className={blog_styles.home_blog_title}
+                                    >
                                         <a href="#">
                                             7 Productivity tips to avoid burnout
                                             when working

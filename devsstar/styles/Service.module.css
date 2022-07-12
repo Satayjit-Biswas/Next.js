@@ -151,3 +151,100 @@
     text-transform: capitalize;
     line-height: 1.8;
 }
+
+/*-------------------- web_design_area area ------------------ */
+
+.web_design_area h3::after{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.work_plan{
+    display: flex;
+    justify-content: space-between;
+}
+.work_box{
+    text-align: center;
+    margin-top: 60px;
+    width: 250px;
+}
+.work_img{
+    font-size: 45px;display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.work_img_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 100px;
+    background-color: #ececec;
+    border-radius: 15px;
+    position: relative;
+}
+.work_img_icon{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+    color: #ececec;
+    font-size: 18px;
+}
+.dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot span{
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #bb0b0b;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    justify-content: center;
+}
+.dot span::after{
+    content: "";
+    height: 4px;
+    width: 94px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 58px;
+    margin-left: 0;
+    background-image: url(../assets/img/service/stripe-h-1.png);
+    background-repeat: no-repeat;
+}
+.dot span::before{
+    content: "";
+    height: 4px;
+    width: 94px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 58px;
+    margin-left: 0;
+    background-image: url(../assets/img/service/stripe-h-1.png);
+    background-repeat: no-repeat;
+}
+.work_text h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.web_design_btn{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
