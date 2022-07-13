@@ -81,7 +81,9 @@ const Navbar = () => {
                 <div className="container">
                     <div className={navbar_styles.bottom_header_area}>
                         <div className={navbar_styles.logo}>
-                            <Image src={logo} width="90" height="80" />
+                            <a href="#">
+                                <Image src={logo} width="90" height="80" />
+                            </a>
                         </div>
                         <div className={navbar_styles.menu}>
                             <ul>

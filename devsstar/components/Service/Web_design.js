@@ -90,7 +90,7 @@ const Web_design = () => {
                 </div>
                 <div className={service_styles.web_design_btn}>
                     <div className="custom_btn mt_40">
-                        <a href="#">About More</a>
+                        <a href="#">Order Now</a>
                     </div>
                 </div>
             </div>

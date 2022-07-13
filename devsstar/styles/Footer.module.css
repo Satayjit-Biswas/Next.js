@@ -3,6 +3,7 @@
     padding-top: 50px;
 }
 .footer_logo img{
+    filter: brightness(1.2);
     object-fit: contain;
 }
 .top_footer p{

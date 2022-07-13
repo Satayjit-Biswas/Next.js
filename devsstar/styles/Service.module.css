@@ -211,6 +211,7 @@
     justify-content: center;
 }
 .dot span::after{
+    opacity: .5;
     content: "";
     height: 4px;
     width: 94px;
@@ -224,6 +225,7 @@
     background-repeat: no-repeat;
 }
 .dot span::before{
+    opacity: .5;
     content: "";
     height: 4px;
     width: 94px;
@@ -247,4 +249,19 @@
     align-items: center;
     margin-top: 30px;
     justify-content: center;
+}
+
+/*-------------------- web_development area ------------------ */
+.web_development{
+    background-image: url("../assets/img/home/ser-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.web_development h3,.web_development.work_text{
+    color: #ffffff;
+}
+.web_development p{
+    color: #b1b1b1;
 }
