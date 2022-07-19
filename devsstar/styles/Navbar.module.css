@@ -50,6 +50,7 @@
 
 }
 .bottom_header_area{
+    height: 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,25 +59,30 @@
     object-fit: contain;
     filter: brightness(1.2);
 }
-.menu ul li{
+.menu>ul {
+    display: flex;
+    align-items: center;
+}
+.menu>ul>li{
     list-style: none;
     display: inline-block;
-    margin: 20px;
+    margin: 0 18px;
 }
 .menu ul li:last-child{
     margin-right: 0;
 }
-.menu ul li a{
+.menu>ul>li>a{
     color: #fff;
     font-size: 18px;
     line-height: 1;
     position: relative;
+    text-transform: capitalize;
     transition: .3s;
 }
 .menu ul li a:hover{
     color: #fff;
 }
-.menu ul li a::after{
+.menu>ul>li>a::after{
     position: absolute;
     content: "";
     width: 0%;
@@ -103,4 +109,67 @@
 }
 .menu ul li a:hover::before{
     width: 8px;
+}
+.login_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.login_icon img{
+    border-radius: 50%;
+    background-color: #ffff00;
+    padding: 2px;
+    object-fit: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: .2s;
+}
+
+.login_menu{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    left: 50%;
+    background-color: #ff2d2d00;
+    transform: translateX(-50%);
+    bottom: -100px;
+    transition: .4s;
+}
+.login_menu li{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+.login_menu li a{
+    background-color: #252525;
+    color: #fff;
+    margin: 0;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: .3s;
+    border-bottom: 1px solid #444444;
+}
+.login_menu li a:hover{
+    position: static;
+    color: #ffff00;
+    background-color: #444444;
+    display: block;
+}
+.login_menu li a:hover::before{
+    display: none;
+}
+.login_icon:hover .login_menu{
+    opacity: 1;
+    pointer-events: all;
 }

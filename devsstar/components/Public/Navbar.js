@@ -94,6 +94,9 @@ const Navbar = () => {
                                     <a href="service">Services</a>
                                 </li>
                                 <li>
+                                    <a href="service">Our project</a>
+                                </li>
+                                <li>
                                     <a href="order">Order</a>
                                 </li>
                                 <li>
@@ -105,6 +108,38 @@ const Navbar = () => {
                                 <li>
                                     <a href="contact">Contact</a>
                                 </li>
+                                <li>
+                                    <a href="contact">login</a>
+                                </li>
+                                {/* <li>
+                                    <div className={navbar_styles.login_icon}>
+                                        <Image
+                                            src={logo}
+                                            width="30"
+                                            height="30"
+                                        />
+                                        <ul
+                                            className={navbar_styles.login_menu}
+                                        >
+                                            <li>
+                                                <a
+                                                    href="/profile"
+                                                    className="nav-link"
+                                                >
+                                                    Profile
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="/loginpage"
+                                                    className="nav-link"
+                                                >
+                                                    logout
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
