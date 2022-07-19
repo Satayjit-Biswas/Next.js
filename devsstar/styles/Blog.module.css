@@ -50,6 +50,22 @@
     margin-left: 10px;
 }
 /* ------------------------- Blog page ----------------------*/
+.blog_area{
+    position: sticky;
+    top: 150px;
+}
+.blog_right_site h3{
+    font-size: 22px;
+    margin-top: 75px;
+    line-height: 1;
+}
+.blog_right_site h3::after{
+    height: 4px;
+    top: -15px;
+    width: 50px;
+}
+
+
 .post_img img{
     border-radius: 10px;
     transition: .3s;
