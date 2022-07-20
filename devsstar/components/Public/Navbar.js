@@ -109,7 +109,7 @@ const Navbar = () => {
                                     <a href="contact">Contact</a>
                                 </li>
                                 <li>
-                                    <a href="contact">login</a>
+                                    <a href="login">login</a>
                                 </li>
                                 {/* <li>
                                     <div className={navbar_styles.login_icon}>
