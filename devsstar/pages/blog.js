@@ -1,5 +1,7 @@
 import React from "react";
+import Categories from "../components/Blog/Categories";
 import Post from "../components/Blog/Post";
+import Recent_post from "../components/Blog/Recent_post";
 import Page_header from "../components/Public/Page_header";
 import blog_styles from "../styles/Blog.module.css";
 import google_ads from "../styles/google_ads.module.css";
@@ -81,7 +83,7 @@ const blog = () => {
                                         ></div>
                                     </div>
                                     <h3 className="upper_line">RECENT POSTS</h3>
-                                    {/* <RecentPost></RecentPost> */}
+                                    <Recent_post></Recent_post>
                                     <div className="d-flex justify-content-center">
                                         <div
                                             className={google_ads.ads468_60}
@@ -94,6 +96,10 @@ const blog = () => {
                                             className={google_ads.ads336_280}
                                         ></div>
                                     </div>
+                                    <h3 className="upper_line">
+                                        POSTS CATEGORIES
+                                    </h3>
+                                    <Categories></Categories>
                                     {/* <Categories
                                     filterBlog={(e) => filterblog(e)}
                                 ></Categories> */}

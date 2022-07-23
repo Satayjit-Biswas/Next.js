@@ -57,6 +57,7 @@
 .blog_right_site h3{
     font-size: 22px;
     margin-top: 75px;
+    margin-bottom: 20px;
     line-height: 1;
 }
 .blog_right_site h3::after{
@@ -126,4 +127,82 @@
 .post_icon a:hover  {
     color: #bb0b0b;
     transform: scale(1.5);
+}
+
+/* ------------------------- recent post  ----------------------*/
+.recentpost_area_box{
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+}
+.recentpost_img a img{
+    object-fit: cover;
+    transition: .3s;
+}
+.recentpost_img{
+    margin-top: 7px;
+    margin-right: 15px;
+}
+.recentpost_img img:hover{
+    opacity: .6;
+}
+.recentpost_title a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.3s;
+    line-height: 1.4;
+}
+.recentpost_title a:hover {
+    color: #bb0b0b;
+}
+.right_text h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(95, 95, 95);
+    text-transform: uppercase;
+}
+.recentpost_date{
+    font-size: 10px;
+    color: rgb(102, 101, 101);
+}
+
+/* ------------------------- recent post  ----------------------*/
+.categories_link {
+    border-bottom: 1.5px solid rgba(196, 194, 194, 0.26);;
+}
+.categories_link svg{
+    font-size: 16px;
+}
+.categories_link a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+    margin-left: 10px;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+.categories_link a:hover {
+    color: #bb0b0b;
+}
+.cat_menu .categories_link{
+    border: none;
+    margin-left: 25px;
+}
+.cat_menu .categories_link a{ 
+    padding: 1px 0; 
+}
+.cat_menu{
+    transition: .4s;
+    max-height: 0px;
+    overflow: hidden;
+}
+.categories_link:hover .cat_menu{
+    max-height: 300px;
 }
