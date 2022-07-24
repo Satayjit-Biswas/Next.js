@@ -1,4 +1,3 @@
-import React from "react";
 import Categories from "../components/Blog/Categories";
 import Post from "../components/Blog/Post";
 import Recent_post from "../components/Blog/Recent_post";
@@ -82,8 +81,10 @@ const blog = () => {
                                             className={google_ads.ads320_100}
                                         ></div>
                                     </div>
-                                    <h3 className="upper_line">RECENT POSTS</h3>
-                                    <Recent_post></Recent_post>
+                                    <Recent_post
+                                        Header_text="RECENT POSTS
+"
+                                    ></Recent_post>
                                     <div className="d-flex justify-content-center">
                                         <div
                                             className={google_ads.ads468_60}
@@ -96,10 +97,8 @@ const blog = () => {
                                             className={google_ads.ads336_280}
                                         ></div>
                                     </div>
-                                    <h3 className="upper_line">
-                                        POSTS CATEGORIES
-                                    </h3>
-                                    <Categories></Categories>
+
+                                    <Categories Header_text="POSTS CATEGORIES"></Categories>
                                     {/* <Categories
                                     filterBlog={(e) => filterblog(e)}
                                 ></Categories> */}
