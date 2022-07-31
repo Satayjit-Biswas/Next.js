@@ -1,4 +1,4 @@
-/* for google ads  */
+/* -------------- for google ads -------------- */
 .ads728_90 {
     width: 728px;
     height: 90px;
@@ -83,6 +83,23 @@
     .blog_right_site .ads200_200 {
         display: none;
     }
+    /*-------------------- project details  page --------------- */
+    /* project details left site */
+    .Project_details_left_site .ads468_60,
+    .Project_details_left_site .ads320_100 {
+        display: none;
+    }
+    /* project details right site */
+    .Project_details_right_site .ads468_60,
+    .Project_details_right_site .ads320_100,
+    .Project_details_right_site .ads250_250 {
+        display: none;
+    }
+    .Project_details_right_site .ads336_280,
+    .Project_details_right_site .ads320_100,
+    .Project_details_right_site .ads200_200 {
+        display: none;
+    }
 }
 @media (max-width: 1199.98px) {
     /*-------------------- project and blog page --------------- */
@@ -100,6 +117,23 @@
     .blog_right_site .ads336_280,
     .blog_right_site .ads320_100,
     .blog_right_site .ads200_200 {
+        display: none;
+    }
+    /*-------------------- project details  page --------------- */
+    /* project details _left_site  */
+    .Project_details_left_site .ads728_90,
+    .Project_details_left_site .ads320_100 {
+        display: none;
+    }
+    /* project details _right_site */
+    .Project_details_right_site .ads468_60,
+    .Project_details_right_site .ads320_50,
+    .Project_details_right_site .ads320_100 {
+        display: none;
+    }
+    .Project_details_right_site .ads336_280,
+    .Project_details_right_site .ads320_100,
+    .Project_details_right_site .ads200_200 {
         display: none;
     }
 }
@@ -123,7 +157,7 @@
     .blog_right_site .ads336_280 {
         display: block;
     }
-    /* project details page  */
+    /* ----------project details page ------------- */
     .project_details .blog_right_site .ads160_600 {
         display: block;
     }
@@ -142,8 +176,16 @@
     .blog_left_site .ads728_90 {
         display: none;
     }
-    /* project details page  */
-    .project_details .blog_right_site .ads160_600 {
+    /* ----------project details page-------------  */
+
+    .Project_details_left_site .ads468_60 {
+        display: block;
+    }
+    .Project_details_left_site .ads728_90 {
+        display: none;
+    }
+
+    .Project_details_right_site .ads160_600 {
         display: none;
     }
 }
@@ -162,11 +204,11 @@
     .blog_right_site .ads200_200 {
         display: block;
     }
-    /* project details page  */
-    .project_details .blog_right_site .ads200_200 {
+    /*----------- project details page ---------------*/
+    .Project_details_left_site .ads468_60 {
         display: none;
     }
-    .post_details .ads336_280 {
+    .Project_details_left_site .ads320_100 {
         display: block;
     }
 }
