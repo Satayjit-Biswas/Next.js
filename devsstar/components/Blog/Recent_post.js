@@ -1,10 +1,10 @@
 import blog_styles from "../../styles/Blog.module.css";
 import Image from "next/image";
 import p1 from "../../assets/img/blog/p.jpg";
-const Recent_post = (props) => {
+const Recent_post = () => {
     return (
         <>
-            <h3 className="upper_line">{props.Header_text}</h3>
+            <h3 className="upper_line">RECENT POSTS</h3>
 
             <div className={blog_styles.post_area_box}>
                 <div className={blog_styles.recentpost_area_box}>

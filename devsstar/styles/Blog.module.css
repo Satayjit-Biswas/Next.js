@@ -84,8 +84,15 @@
     color: #bb0b0b;
 }
 .post_date{
-    font-size: 12px;
+    font-size: 13px;
+    text-transform: capitalize;
     margin-top: 10px;
+}
+.post_date span span{
+    color: #bb0b0b;
+    font-weight: 500;
+    margin-left: 5px;
+
 }
 .post_details p{
     margin: 15px 0;
