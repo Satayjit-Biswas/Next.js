@@ -139,3 +139,41 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 60px white inset !important;
 }
+
+.sticky {
+    z-index: 999999999;
+    position: fixed;
+    top: -58px;
+    transition: .3s;
+    background-color: rgb(1 11 19 / 42%);
+    box-shadow: 0 0 0px 1px #353535;
+}
+
+/*------------------ Media Query -------------------*/
+
+@media (min-width: 1200px) { 
+	
+}
+
+@media (max-width: 1199px) { 
+	.sticky{
+        top: 0;
+    }
+    .sticky .Navbar_bottom_header_area__VOK9k{
+        height: 65px;
+    }
+}
+
+@media (max-width: 991px) {
+	
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	
+}

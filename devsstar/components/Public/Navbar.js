@@ -8,10 +8,23 @@ import {
 import navbar_styles from "../../styles/Navbar.module.css";
 import Image from "next/image";
 import logo from "../../assets/img/logo.png";
+import { useEffect, useRef } from "react";
 
 const Navbar = () => {
+    const addclass = useRef();
+
+    useEffect(() => {
+        console.log(addclass.current.className);
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 100) {
+                addclass.current.className = "Navbar_header_area__6XM4T sticky";
+            } else {
+                addclass.current.className = "Navbar_header_area__6XM4T";
+            }
+        });
+    }, []);
     return (
-        <div className={navbar_styles.header_area}>
+        <div className={navbar_styles.header_area} ref={addclass}>
             <div className={navbar_styles.top_header}>
                 <div className="container">
                     <div className={navbar_styles.top_header_area}>
