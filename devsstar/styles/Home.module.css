@@ -247,3 +247,69 @@
     color: #9b9b9b;
     text-transform: capitalize;
 }
+/*------------------ Media Query -------------------*/
+
+@media (min-width: 1200px) { 
+}
+@media (max-width: 1285px) { 
+
+}
+@media (max-width: 1199px) { 
+    .slider_text_area h2 {
+        font-size: 50px;
+    }
+    .slider_text_area h2 span {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .Slider_area{
+        background-position: bottom 0px right 30%;
+    }
+    .filter_menu ul{
+        overflow-x: scroll;
+        white-space: nowrap;
+        padding-bottom: 15px;
+    }
+    
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+    /* --------- Slider area ---- */
+	.slider_text_area h2::after {
+        height: 6px;
+    }
+    .overlay{
+        background-color: rgb(0,0,0,34%);
+    }
+    /* --------- project area ---- */
+    .find_btn{
+        text-align: start;
+        margin-top: 20px;
+    }
+
+    .filter_menu ul li{
+        margin: 0 5px;
+    }
+    .filter_box{
+        margin-top: 3px;
+    }
+    .filter_project>div{
+        margin:0 -0px;
+    }
+    .filter_project>div>div{
+        padding: 0 5px;
+    }
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	.slider_text_area h2 {
+        font-size: 40px;
+    }
+    .slider_text_area h2 span {
+        font-size: 22px;
+    }
+}

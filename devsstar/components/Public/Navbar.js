@@ -1,5 +1,6 @@
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { BsTwitter, BsClockHistory } from "react-icons/bs";
+import { TiThMenuOutline } from "react-icons/ti";
 import {
     MdOutlineMarkEmailRead,
     MdAddIcCall,
@@ -11,20 +12,35 @@ import logo from "../../assets/img/logo.png";
 import { useEffect, useRef } from "react";
 
 const Navbar = () => {
-    const addclass = useRef();
-
+    const add_class = useRef();
+    const click_profile = useRef();
+    const scrolling = () => {
+        if (window.scrollY > 100) {
+            add_class.current.className = `${navbar_styles.header_area}${" "} ${
+                navbar_styles.sticky
+            }`;
+        } else {
+            add_class.current.className = `${navbar_styles.header_area}`;
+        }
+    };
+    const drop_profile = () => {
+        click_profile.current.classList.toggle(`${navbar_styles.drop_profile}`);
+    };
+    const tab_menu = () => {
+        add_class.current.classList.toggle(`${navbar_styles.show_tab_menu}`);
+    };
     useEffect(() => {
-        console.log(addclass.current.className);
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 100) {
-                addclass.current.className = "Navbar_header_area__6XM4T sticky";
-            } else {
-                addclass.current.className = "Navbar_header_area__6XM4T";
+        window.addEventListener("scroll", scrolling);
+        document.addEventListener("click", (e) => {
+            if (!click_profile.current.contains(e.target)) {
+                click_profile.current.classList.remove(
+                    `${navbar_styles.drop_profile}`
+                );
             }
         });
     }, []);
     return (
-        <div className={navbar_styles.header_area} ref={addclass}>
+        <div className={`${navbar_styles.header_area}`} ref={add_class}>
             <div className={navbar_styles.top_header}>
                 <div className="container">
                     <div className={navbar_styles.top_header_area}>
@@ -98,6 +114,7 @@ const Navbar = () => {
                                 <Image src={logo} width="90" height="80" />
                             </a>
                         </div>
+
                         <div className={navbar_styles.menu}>
                             <ul>
                                 <li>
@@ -121,11 +138,15 @@ const Navbar = () => {
                                 <li>
                                     <a href="contact">Contact</a>
                                 </li>
-                                <li>
-                                    <a href="login">login</a>
-                                </li>
                                 {/* <li>
-                                    <div className={navbar_styles.login_icon}>
+                                    <a href="login">login</a>
+                                </li> */}
+                                <li>
+                                    <div
+                                        className={`${navbar_styles.login_icon}`}
+                                        ref={click_profile}
+                                        onClick={drop_profile}
+                                    >
                                         <Image
                                             src={logo}
                                             width="30"
@@ -152,8 +173,14 @@ const Navbar = () => {
                                             </li>
                                         </ul>
                                     </div>
-                                </li> */}
+                                </li>
                             </ul>
+                        </div>
+                        <div
+                            className={`${navbar_styles.menu_icon}`}
+                            onClick={tab_menu}
+                        >
+                            <TiThMenuOutline />
                         </div>
                     </div>
                 </div>

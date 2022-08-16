@@ -213,3 +213,29 @@
 .categories_link:hover .cat_menu{
     max-height: 300px;
 }
+/*------------------ Media Query -------------------*/
+
+@media (min-width: 1200px) { 
+}
+@media (max-width: 1285px) { 
+
+}
+@media (max-width: 1199px) { 
+    
+}
+
+@media (max-width: 991.98px) {
+    
+    .home_blog_img a img{
+        width: 540px !important;
+    }
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+}

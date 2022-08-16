@@ -25,6 +25,18 @@ const Latest_blog = () => {
                             delay: 2500,
                             disableOnInteraction: false,
                         }}
+                        breakpoints={{
+                            320: {
+                                slidesPerView: 1,
+                            },
+                            575: {
+                                slidesPerView: 2,
+                                spaceBetween: 10,
+                            },
+                            992: {
+                                slidesPerView: 3,
+                            },
+                        }}
                     >
                         <SwiperSlide>
                             <div className={blog_styles.home_blog_box}>

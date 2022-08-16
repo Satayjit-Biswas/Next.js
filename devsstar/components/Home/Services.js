@@ -17,7 +17,9 @@ const Services = () => {
                         </h3>
                     </div>
                     <div className="col-lg-5 col-md-4 col-12">
-                        <div className="custom_btn text_center">
+                        <div
+                            className={`${home_styles.find_btn} custom_btn text_center`}
+                        >
                             <a href="#">find Consultant</a>
                         </div>
                     </div>
