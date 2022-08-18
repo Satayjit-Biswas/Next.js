@@ -6,7 +6,7 @@ import Image from "next/image";
 import img from "../../assets/img/home/5.jpg";
 import blog_styles from "../../styles/Blog.module.css";
 import { HiArrowRight } from "react-icons/hi";
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay } from "swiper";
 
 const Latest_blog = () => {
     return (
@@ -18,24 +18,23 @@ const Latest_blog = () => {
                 <div className="slider mb_15">
                     <Swiper
                         spaceBetween={30}
-                        slidesPerView={3}
-                        loop={true}
-                        modules={[Autoplay]}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
+                        slidesPerView="auto"
                         breakpoints={{
                             320: {
                                 slidesPerView: 1,
                             },
                             575: {
                                 slidesPerView: 2,
-                                spaceBetween: 10,
                             },
                             992: {
                                 slidesPerView: 3,
                             },
+                        }}
+                        loop={true}
+                        modules={[Autoplay]}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
                         }}
                     >
                         <SwiperSlide>

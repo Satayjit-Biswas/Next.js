@@ -24,7 +24,7 @@ const Process = () => {
                     </div>
                 </div>
                 <div className={`${service_styles.line}${" "}row`}>
-                    <div className="col-lg-3 col-md-6 col-12 mt_30">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_30">
                         <div className={service_styles.process_box}>
                             <div className={service_styles.process_img}>
                                 <Image src={img1} width="40" height="40" />
@@ -39,7 +39,7 @@ const Process = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-12 mt_30">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_30">
                         <div className={service_styles.process_box}>
                             <div className={service_styles.process_img}>
                                 <Image src={img2} width="40" height="40" />
@@ -54,7 +54,7 @@ const Process = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-12 mt_30">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_30">
                         <div className={service_styles.process_box}>
                             <div className={service_styles.process_img}>
                                 <Image src={img3} width="40" height="40" />
@@ -69,7 +69,7 @@ const Process = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-12 mt_30">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_30">
                         <div className={service_styles.process_box}>
                             <div className={service_styles.process_img}>
                                 <Image src={img4} width="40" height="40" />

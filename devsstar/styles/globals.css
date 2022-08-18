@@ -150,16 +150,24 @@ input:-webkit-autofill:active {
 @media (max-width: 1199px) {
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
     h3{
         line-height: 1.2;
+    }
+    .custom_btn a {
+        padding: 13px 25px 13px 25px;
     }
 }
 
 /*Medium devices (tablets, 767px and down)*/
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
     .custom_btn a {
         padding: 13px 20px 13px 20px;
+    }
+    .page_header h2 {
+        height: 43vh;
+        margin-bottom: -55px;
+        font-size: 20px;
     }
 }
 

@@ -21,6 +21,9 @@
 .price_box:hover{
     transform: scale(1.02);
 }
+.price_area_row{
+    justify-content: center;
+}
 .price_box h2{
     text-transform: capitalize;
 }
@@ -53,4 +56,27 @@
 }
 .offer span{
     font-size: 25px;
+}
+
+/*------------------ Media Query -------------------*/
+
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1199px) {
+.price_box{
+    padding: 40px 20px;
+}
+}
+
+@media (max-width: 991.98px) {
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
 }

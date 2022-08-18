@@ -15,7 +15,7 @@ const Footer = () => {
             <div className={footer_styles.top_footer}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 col-12 mb_50">
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 mb_50">
                             <div className="top_footer_box">
                                 <div className={footer_styles.footer_logo}>
                                     <Image src={logo} width="97" height="70" />
@@ -52,7 +52,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-12 mb_50">
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 mb_50">
                             <div className={footer_styles.footer_services}>
                                 <h5 className="upper_line mt_25">
                                     OUR SERVICES
@@ -77,7 +77,7 @@ const Footer = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-12 mb_50">
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 mb_50">
                             <div className={footer_styles.footer_contact}>
                                 <h5 className="upper_line mt_25">
                                     CONTACT INFO
@@ -118,7 +118,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-12 mb_50">
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 mb_50">
                             <div className={footer_styles.footer_newsletter}>
                                 <h5 className="upper_line mt_25">NEWSLETTER</h5>
                                 <p>

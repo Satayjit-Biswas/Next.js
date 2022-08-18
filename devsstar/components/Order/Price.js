@@ -8,7 +8,7 @@ const Price = () => {
         <div className={`${order_styles.price_area}${" "}top_bottom_gap`}>
             <div className="container">
                 <h3 className="text_center upper_line mt_45">Pricing plans</h3>
-                <div className="row">
+                <div className={`${order_styles.price_area_row} row`}>
                     <div className="col-lg-4 col-md-6">
                         <div className={order_styles.price_box}>
                             <h2>web design</h2>

@@ -66,7 +66,8 @@
 }
 .process_area h2{
     font-size: 36px;
-    line-height: 46px;
+    line-height: 1.3;
+    text-transform: capitalize;
     font-weight: 700;
     color: #ffffff;
     margin: 0;
@@ -264,4 +265,59 @@
 }
 .web_development p{
     color: #b1b1b1;
+}
+/*------------------ Media Query -------------------*/
+
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1199px) {
+    .help_area h2{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .process_area h2{
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+    .line::after{
+        display: none;
+    }
+    .line p {
+        padding: 0 30px;
+    }
+    .help_area h2{
+        font-size: 25px;
+    }
+    .help_area span {
+        margin-top: 15px;
+        display: block;
+        font-size: 17px;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 1.4;
+    }
+    .help_area p {
+        margin-top: 15px;
+        line-height: 1.6;
+    }
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+    .process_area h2{
+        padding-right: 20%;
+    }
+    .process_btn{
+        justify-content: start;
+    }
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+    .process_area h2{
+        padding-right: 0%;
+    }
 }
