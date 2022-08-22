@@ -11,7 +11,7 @@ const Team = () => {
         <div className={`${about_styles.team_area}${" "}top_bottom_gap`}>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_15 mb_15">
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt_15 mb_15">
                         <div className={about_styles.team_box}>
                             <div className={about_styles.team_img}>
                                 <a href="#">
@@ -48,7 +48,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_15 mb_15">
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt_15 mb_15">
                         <div className={about_styles.team_box}>
                             <div className={about_styles.team_img}>
                                 <a href="#">
@@ -85,7 +85,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_15 mb_15">
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt_15 mb_15">
                         <div className={about_styles.team_box}>
                             <div className={about_styles.team_img}>
                                 <a href="#">
@@ -122,7 +122,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_15 mb_15">
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt_15 mb_15">
                         <div className={about_styles.team_box}>
                             <div className={about_styles.team_img}>
                                 <a href="#">
@@ -159,7 +159,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_15 mb_15">
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt_15 mb_15">
                         <div className={about_styles.team_box}>
                             <div className={about_styles.team_img}>
                                 <a href="#">
@@ -196,7 +196,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_15 mb_15">
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt_15 mb_15">
                         <div className={about_styles.team_box}>
                             <div className={about_styles.team_img}>
                                 <a href="#">

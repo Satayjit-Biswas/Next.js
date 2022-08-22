@@ -8,7 +8,7 @@ const Our_project = () => {
                 <div className={project_styles.project_item}>
                     <div className={project_styles.project_item_img1}>
                         <a href="#">
-                            <Image src={p1} width="382" height="250" />
+                            <Image src={p1} width={382} height={250} />
                         </a>
                     </div>
                     <div className={project_styles.project_item_text}>

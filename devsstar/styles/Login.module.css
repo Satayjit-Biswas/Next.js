@@ -26,6 +26,7 @@
 .login_form_area h2{
     margin-bottom: 20px;
     font-weight: 400;
+    font-size: 23px;
 }
 
 
@@ -117,4 +118,55 @@
 }
 .login_form_area_box p a:hover{
     color: #bb0b0b;
+}
+
+/*------------------ Media Query -------------------*/
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (max-width: 1199px) { 
+    .login_form_area_box button {
+        padding: 12px 20px 12px 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .form_left{
+        padding:  60px 20px;
+    }
+    .form_left h2{
+        font-size: 17px;
+        white-space: nowrap;
+    }
+    .input_box label{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+    .form_left,.form_right{
+        padding:  60px 20px;
+    }
+    .form_left h2, .form_right h2{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .input_box label{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .form_right p{
+        font-size: 12px;
+    }
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
 }

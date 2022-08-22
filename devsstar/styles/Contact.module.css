@@ -120,3 +120,64 @@
     height: 200px;
     opacity: 1;
 }
+
+/*------------------ Media Query -------------------*/
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (max-width: 1199px) { 
+    .form_left h2{
+        font-size: 25px;
+    } 
+    .form_left ul li{
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .form_left{
+        padding:  60px 20px;
+    }
+    .form_left h2{
+        font-size: 17px;
+    }
+    .form_left p{
+        font-size: 13px;
+        line-height: 1.7;
+    }
+    .form_left li{
+        font-size: 12px;
+    }
+    .contact_icon {
+        margin-right: 10px;
+    }
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+    .form_area_box {
+        flex-direction: column;
+    }
+    .form_left{
+        width: 100%;
+        padding:  60px 80px;
+    }
+    .form_right{
+        width: 100%;
+        padding:  60px 80px;
+    }
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+    .form_left{
+        width: 100%;
+        padding:  60px 30px;
+    }
+    .form_right{
+        width: 100%;
+        padding:  60px 30px;
+    }
+}

@@ -1,6 +1,4 @@
 import Categories from "../components/Blog/Categories";
-import Post from "../components/Blog/Post";
-import Recent_post from "../components/Blog/Recent_post";
 import Our_project from "../components/Project/Our_project";
 import Page_header from "../components/Public/Page_header";
 import blog_styles from "../styles/Blog.module.css";
@@ -85,7 +83,7 @@ const project = () => {
                                         ></div>
                                     </div>
 
-                                    <div className="d-flex justify-content-center">
+                                    <div className="d-flex mt_25 justify-content-center">
                                         <div
                                             className={google_ads.ads468_60}
                                         ></div>

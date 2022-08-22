@@ -1,61 +1,61 @@
 /* ------------------------- Project page ----------------------*/
-.text_tb_line{
+.text_tb_line {
     font-size: 18px;
 }
-.projects_area_box{
+.projects_area_box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
-.project_item{
+.project_item {
     background-color: rgb(245, 245, 245);
     height: 50px;
     height: 100%;
-    transition: .3s;
+    transition: 0.3s;
 }
-.project_item:hover{
+.project_item:hover {
     transform: scale(1.02);
-    box-shadow:0 0 12px 1px rgb(224, 224, 224);
-
+    box-shadow: 0 0 12px 1px rgb(224, 224, 224);
 }
-.project_item_img1 img{
+.project_item_img1 img {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    transition: .3s;
+    transition: 0.3s;
 }
-.project_item_img1 img:hover{
-    opacity: .8;
+.project_item_img1 img:hover {
+    opacity: 0.8;
 }
-.project_item_text{
+.project_item_text {
     padding: 15px;
 }
-.project_item_date{
+.project_item_date {
     display: flex;
     justify-content: space-between;
 }
-.project_item_date p ,.project_categories p{
+.project_item_date p,
+.project_categories p {
     color: rgb(0, 0, 0);
 }
-.project_item_date p span ,.project_categories p span{
+.project_item_date p span,
+.project_categories p span {
     color: rgb(119, 117, 117);
     font-size: 13px;
     text-transform: capitalize;
     padding: 0 3px;
 }
-.project_item h3 a{
+.project_item h3 a {
     color: rgb(0, 0, 0);
     font-size: 18px;
     text-decoration: none;
-    transition: .3s;
+    transition: 0.3s;
     line-height: 1.4;
     cursor: pointer;
 }
-.project_item h3 a:hover{
+.project_item h3 a:hover {
     color: #bb0b0b;
-    
 }
-.post_read_more a{
+.post_read_more a {
     margin-top: 20px;
     padding: 6px 15px;
     font-size: 12px;
@@ -66,25 +66,90 @@
 .project_details_img {
     margin: 20px 0;
 }
-.project_details_img img{
+.project_details_img img {
     width: 100%;
     object-fit: cover;
 }
-.project_details_box h3{
+.project_details_box h3 {
     font-size: 25px;
     padding-top: 20px;
 }
-.project_details_box h5{
+.project_details_box h5 {
     font-size: 18px;
     padding: 15px 0;
 }
-.project_link h5{
-    padding:  20px 0 5px 0;
+.project_link h5 {
+    padding: 20px 0 5px 0;
 }
-.project_link a{
+.project_link a {
     color: blue;
     font-size: 16px;
-    transition: .3s;
+    transition: 0.3s;
 }
-.project_link a:hover{
-    color: #bb0b0b;}
+.project_link a:hover {
+    color: #bb0b0b;
+}
+
+/*------------------ Media Query -------------------*/
+
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1199px) {
+    .project_item_date p{
+        font-size: 13px;
+    }
+    .project_item_date p span{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .project_item_img1 a img{
+        width: 470px !important;
+        height: 280px !important;
+    }
+}
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+    .project_item_img1 a img{
+        width: 355px !important;
+        height: 260px !important;
+    }
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 670.98px) {
+    .project_item_date p{
+        font-size: 10px;
+    }
+    .project_item_date p span{
+        font-size: 8px;
+    }
+    .project_item_img1 a img{
+        width: 305px !important;
+        height: 200px !important;
+    }
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+}
+@media (max-width:  530px) {
+    .projects_area_box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+    .project_item_img1 a img{
+        width: 500px !important;
+        height: 320px !important;
+    }
+} 
+
+@media (max-width:  430px) {
+    .project_item_img1 a img{
+        width: 400px !important;
+        height: 250px !important;
+    }
+}

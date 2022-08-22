@@ -218,7 +218,6 @@
 @media (min-width: 1200px) { 
 }
 @media (max-width: 1285px) { 
-
 }
 @media (max-width: 1199px) { 
     
@@ -238,4 +237,8 @@
 
 /*Small devices (landscape phones, 575px and down)*/
 @media (max-width: 575px) {
+    .post_img a img{
+        width: 540px !important;
+        height: 280px !important;
+    }
 }
