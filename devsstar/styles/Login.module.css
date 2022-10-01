@@ -20,6 +20,7 @@
 .form_left:hover{
     width: 70%;
 }
+
 .form_left:hover + .form_right{
     width: 30%;
 }
@@ -156,6 +157,14 @@
         font-size: 14px;
         white-space: nowrap;
     }
+    .form_left h2{
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 23px;
+        margin: 0px !important;
+        display: inline-block;
+        cursor: pointer;
+    }
     .input_box label{
         text-transform: uppercase;
         font-weight: 600;
@@ -163,6 +172,31 @@
     }
     .form_right p{
         font-size: 12px;
+    }
+    .login_form_area_box{
+        flex-direction: column;
+    }
+    .form_right , .form_left{
+        width: 100% !important;
+    }
+    .form_left h2, .form_right h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .form_left{
+        width: 100%;
+        overflow: hidden;
+        max-height: 70px;
+        transition: .4s;
+        padding: 20px;
+    }
+    .Back button{
+        display: block;
+        margin-top: 20px;
+    }
+    .form_left.form_showed{
+        max-height: 700px;
+        padding: 60px 20px;
     }
 }
 
