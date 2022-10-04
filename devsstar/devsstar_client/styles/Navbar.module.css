@@ -54,7 +54,7 @@
 }
 .bottom_header_area{
     transition: .3s;
-    height: 85px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -148,7 +148,7 @@
     justify-content: end;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -98px;
+    bottom: -93px;
     transition: .4s;
 }
 .login_menu li{
@@ -197,7 +197,7 @@
 @media (max-width: 1285px) { 
 	.login_menu{
         left: -35px;
-        bottom: -98px;
+        bottom: -93px;
     }
     
 }
